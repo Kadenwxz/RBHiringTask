@@ -1,0 +1,427 @@
+.register{
+    height: 100Vh; 
+}
+
+.register-left{
+    background: #D74B4B; 
+
+    position: relative;    
+    color: #fff;  
+    padding-top: 10%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.register-left div{
+    text-align: center;
+}
+
+.register-left h2{
+    font-size: 3rem;
+}
+
+.register-left h1{
+    font-size: 4rem;
+}
+
+.register-left img{
+    width: 80%;
+}
+
+.register-right{
+    background: #F5FAFF 0% 0% no-repeat padding-box;
+    height: 100Vh;
+    padding: 5% 7% 7%;    
+}
+
+.register-form{
+    min-height: 500px;
+    display: flex;
+    height: 100%;
+    background-color: white;
+    padding: 6% 7% 4.8% 7%;
+    border-radius: 25px;
+    position: relative;
+}
+
+.form-group label{
+    text-align: left;
+    font: Bold 20px Arial;
+    letter-spacing: 0px;
+    color: #475F77;
+}
+
+.form-group input{
+    padding: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFABAB59;
+    border-radius: 5px;
+    /* height: 6vh; */
+    font-size: 24px;    
+}
+
+.investor-get-started-btn-main{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.investor-get-started-btn{
+    width: 300px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #D74B4B 0% 0% no-repeat padding-box;
+    border-radius: 46px;
+    opacity: 1;
+    color: white;
+    border: none;
+    outline: none !important;
+}
+
+.investor-get-started-btn:hover{    
+    transition-duration: 0.5s;
+    background: #E45341;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.form-group-row{
+    display: flex;
+    align-items: center;
+}
+
+.already-have-account-title{
+    color: white;
+}
+
+.already-have-account-title:hover{
+    cursor: pointer;
+    color: lemonchiffon;
+}
+
+.investor-signUp-title{
+    text-align: initial !important;
+}
+
+
+
+@media (max-width: 1200px){
+    .register-left{
+        padding-top: 20%;
+    }
+
+    .investor-get-started-btn-main{
+        bottom: -30px;
+    }
+    
+    .investor-get-started-btn{
+        width: 250px;
+        height: 60px;
+    }
+
+    .register-left h2{
+        font-size: 40px;
+    }
+
+    .register-left h1{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1025px){
+    .register-right .form-group-row{
+        flex: initial;
+        max-width: 100%;
+    }
+
+    .register-right{
+        display: flex;
+        align-items: center;
+    }
+
+    .register-right .register-form{
+        height: 950px;
+    }
+}
+
+@media (max-width: 1025px){
+
+    .register-left h2{
+        transform: translateX(-15px);
+        font-size: 2rem;
+    } 
+
+    .register-left h1{
+        font-size: 2.5rem;
+    }   
+}
+
+@media (max-width: 768px){
+    .investor-sign-up-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .investor-sign-up-container .register-left{
+        max-width: 100%;
+    }
+
+    .investor-sign-up-container .register-right{
+        max-width: 100%;
+    }
+
+    .investor-signUp-title{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .register-left img{
+        width: 60%;
+    }
+
+    .register-left{
+        padding-top: 1%;
+    }
+
+    .innestor-register-btn{
+        right: 28%;
+    }
+
+    .form-group label{
+        font: Bold 14px Arial;
+    }
+
+    .form-group input{
+        font-size: 20px;
+    }
+    
+    .investor-get-started-btn{
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .register-left{
+        padding: 30px 0;
+    }
+
+    .register-right{
+        padding-bottom: 150px;
+        height: initial;
+    }
+
+    .form-group input{
+        padding: 5px;
+        font-size: 14px;
+        height: 45px;
+    }
+    
+    .investor-get-started-btn-main{
+        bottom: -80px;
+    }
+}
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        /* issuer login css *
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
+.issuer-login-form{
+    background: #F5FAFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.issuer-login-form-container{
+    position: relative;
+    background: white;
+    width: 660px;
+    height: 480px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 80px 150px;
+}
+
+.issuer-login-form-item label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #475F77;
+}
+
+.issuer-login-form-item input{
+    height: 56px;
+    font-size: 20px;
+}
+
+.login-forgot-password-title{
+    text-align: right;
+    padding: 13px 0;
+}
+
+.login-forgot-password-title span{
+    color: #475F77;
+}
+
+.login-forgot-password-title span:hover{
+    color: #D74B4B;
+}
+
+.login-btn-main{
+    position: absolute;
+    width: 100%;
+    bottom: -40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn{
+    width: 230px;
+    height: 80px;
+    border-radius: 40px;
+    background: #D74B4B;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: transform .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
+}
+
+.login-btn:hover{
+    background: #E45341;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px){
+
+    .issuer-login-form-container{
+        width: 500px;
+        height: 380px;
+        border-radius: 20px;
+        padding: 40px 80px;
+    }
+
+
+    .login-btn{
+        width: 180px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+
+    .login-btn-main{
+        bottom: -30px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .issuer-login-form{
+        height: initial;
+        padding: 80px 0;
+        max-width: 100%;
+    }
+
+    .issuer-login-form-container{
+        width: 80%;
+    }
+}
+
+@media (max-width: 515px){
+    .issuer-login-form-container{
+        width: 90%;
+        padding: 40px;
+    }
+
+    .issuer-login-form-item label{
+        font-size: 16px;
+    }
+
+    .issuer-login-form-item input{
+        font-size: 16px;
+        height: 50px;
+    }
+}
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        /* Email Modal */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* Email Confirm Modal css */
+
+
+.email-confirm-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-confrim-main{
+    background: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 190px;
+    text-align: center;
+}
+
+.modal-email-address{
+    color: #4BD78C;
+}
+
+.email-box-main{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .email-confrim-main{
+        width: 90%;
+        padding: 50px 150px;
+    }
+}
+
+@media (max-width: 515px){
+    .email-confrim-main{
+        width: 90%;
+        padding: 50px 50px;
+        height: 400px;
+    }
+
+    .email-box-main{
+        width: 50px;
+    }
+
+    .email-confrim-main h2{
+        font-size: 18px;
+    }
+}

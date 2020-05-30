@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Bob Bob",
+        "email": "bobbob@yahoo.com",
+        "phone": "+1 000 000 000",
+        "status": "1",
+        "created_date": "Sep 25, 2017"
+    },
+    {
+        "name": "James James",
+        "email": "james@gmail.com",
+        "phone": "+1 000 000 000",
+        "status": "0",
+        "created_date": "Sep 25, 2017"
+    }
+]
